@@ -1,0 +1,19 @@
+{
+  "name": "SocialAuthDjango",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JohnAzedo/SocialAuthDjango.git",
+  "author": "João Pedro Limão <jplimao12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  },
+  "scripts": {
+    "build:css": "postcss core/static/style.css -o core/static/tailwind.css"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0"
+  }
+}
