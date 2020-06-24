@@ -11,7 +11,8 @@
     "tailwindcss": "^1.4.6"
   },
   "scripts": {
-    "build:css": "postcss static/style.css -o static/tailwind.css"
+    "build:css": "postcss static/style.css -o static/tailwind.css",
+    "dev:css": "npx tailwindcss build static/style.css -o static/tailwind.css"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0"
