@@ -8,11 +8,20 @@
     <link rel="stylesheet" href="{% static 'tailwind.css' %}"></link>
 </head>
 <body>
-    <div class="w-full h-full">
+    <div class="flex w-screen h-screen">
         <!-- Div to background image -->
-        <div></div>
+        <div class="w-3/4">
+            <img 
+                src="{% static 'images/background.jpeg' %}"
+                class="h-screen w-screen"/>
+        </div>
+
         <!-- Div to authentication -->
-        <div></div>
+        <div class="w-1/4 bg-gray-300">
+            <div>
+
+            </div>
+        </div>
     </div>
 </body>
 </html>
