@@ -23,3 +23,8 @@ Build main css using postcss
 ```sh
 yarn run build:css
 ```
+
+Build main css using npx
+```sh
+yarn run dev:css
+```
