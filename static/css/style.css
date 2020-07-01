@@ -2,8 +2,13 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+/* @import url(""); */
+
+@font-face {
+    font-family: 'Circular';
+    src: url('font/circular.otf')
+}
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Circular';
 }
