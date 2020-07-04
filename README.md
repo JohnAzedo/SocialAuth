@@ -2,7 +2,7 @@
 
 Creating social auth with GitHub, Google and Twitter.
 
-## Installation
+## Installing
 
 Install requirements
 
@@ -14,6 +14,14 @@ Install all repository dependencies
 
 ```sh
 yarn install
+```
+
+## Configuring
+
+Create a `.env` file and fill it with the respective information present in `.env.example`
+
+```env
+SECRET_KEY = random_string
 ```
 
 ## Building CSS
