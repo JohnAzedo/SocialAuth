@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build:css": "postcss static/css/style.css -o static/css/tailwind.css",
-    "dev:css": "npx tailwindcss build static/css/style.css -o static/css/tailwind.css"
+    "dev:css": "npx tailwindcss build static/css/style.css -o static/css/tailwind.css",
+    "dev:authentication": "npx tailwindcss build authentication/static/css/style.css -o authentication/static/css/tailwind.css"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0"
