@@ -33,6 +33,13 @@ yarn run build:css
 ```
 
 Build main css using npx
+
 ```sh
 yarn run dev:css
+```
+
+Build tailwind in specific app
+
+```sh
+yarn run authentication:css
 ```
