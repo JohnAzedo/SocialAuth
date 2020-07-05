@@ -23,7 +23,7 @@ Create a `.env` file and fill it with the respective information present in `.en
 ```env
 SECRET_KEY = random_string
 GOOGLE_CLIENT_ID = OAuth_client_id
-GOOGLE_CLIENT_SECRET = OAuth_client_secrete
+GOOGLE_CLIENT_SECRET = OAuth_client_secret
 ```
 
 ## Building CSS
