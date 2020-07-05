@@ -2,11 +2,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* @import url("../font/Circular\ Std\ Font.otf"); */
-
 @font-face {
     font-family: 'Circular Std';
-    src: url('../font/Circular\ Std\ Book.ttf')
+    src: url('../../../static/font/Circular\ Std\ Book.ttf')
 }
 
 * {
