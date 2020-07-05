@@ -1,8 +1,10 @@
-from authentication.views import Login
+# from authentication.views import Login
 from django.urls import path
+from django.views.generic import RedirectView
+
 
 app_name = 'authentication'
 
 urlpatterns = [
-    path('', Login.as_view(), name="login")
+    path('', RedirectView.as_view(permanent=False, url='/accounts/login/'))
 ]
