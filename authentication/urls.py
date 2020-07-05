@@ -1,4 +1,3 @@
-# from authentication.views import Login
 from django.urls import path
 from django.views.generic import RedirectView
 
