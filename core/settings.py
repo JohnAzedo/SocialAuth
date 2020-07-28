@@ -1,5 +1,6 @@
 import os
 from decouple import config
+from authentication.env import *
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -28,7 +29,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'authentication',
     'social_django',
-    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -123,8 +123,3 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'authentication','static'),
     os.path.join(BASE_DIR, 'static')
 ]
-
-LOGIN_URL = '/auth/login/google-oauth2/'
-LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL = '/
-SOCIAL_AUTH_URL_NAMESPACE = 'social'
