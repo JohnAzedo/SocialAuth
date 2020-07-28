@@ -8,4 +8,5 @@ app_name = 'authentication'
 urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
     path('', RedirectView.as_view(permanent=False, url='/accounts/login/'))
+      path('social/', include('social_django.urls', namespace='social')),
 ]
