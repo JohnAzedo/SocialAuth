@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Circular Std';
-    src: url('../../../static/font/CircularStdBook.ttf')
+    src: url('../font/CircularStdBook.ttf')
 }
 
 * {
