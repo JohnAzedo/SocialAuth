@@ -1,6 +1,6 @@
 # SocialAuthDjango
 
-Creating social auth with GitHub, Google and API authentication.
+Creating social auth with Google and API authentication.
 
 ## Installing
 
