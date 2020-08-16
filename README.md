@@ -10,7 +10,7 @@ Install requirements
 pip install -r requirements.txt
 ```
 
-Install all repository dependencies with yarn or use npm
+Install all repository dependencies with yarn or use npm with npx
 
 ```sh
 yarn install
